@@ -2,7 +2,7 @@ import css from "./App.module.css"
 import { useState } from "react"
 import { useQuery, keepPreviousData } from '@tanstack/react-query'
 import { useDebouncedCallback } from "use-debounce"
-import { fetchNotes } from "../../services/noteService."
+import { fetchNotes } from "../../services/noteService"
 import Modal from "../Modal/Modal"
 import NoteForm from "../NoteForm/NoteForm"
 import NoteList from "../NoteList/NoteList"
